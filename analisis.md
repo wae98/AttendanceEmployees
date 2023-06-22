@@ -132,5 +132,5 @@ _Las pantallas que se consideran que se deben implementar en el sistema son los 
 
 
 ## ERD
-A continuacion, se presenta un diagrama entidad relacion segun los requerimientos solitiados.
+A continuacion, se presenta un diagrama entidad relacion segun los requerimientos solicitados.
 ![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/ERD.png)
