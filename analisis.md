@@ -27,19 +27,29 @@ _La tabla workplaces no servira para crear los diferentes centros de trabajo de 
 
 #### Estructura de la tabla
 
-| WORKPLACE_ID  | NAME | EMPLOYEE_ID |
-| ------------- | ------------- | ------------- |
-| 1  | GUATEMALA  | 1|
+| WORKPLACE_ID  | NAME | MANAGER_ID |
+| ------------- | ------------- |------------|
+| 1  | GUATEMALA  | 1          |
 |
 
 ### Tabla Employees
-_La tabla employees no servira para crear los empleados de la organizaccion._
+_La tabla employees nos servira para crear los empleados de la organizaccion._
 
 #### Estructura de la tabla
 
 | EMPLOYEE_ID  | CODE | NAME | SURNAME | BIRHDATE| PHONE_NUMBER | DEPARTMENT_ID | WORKPLACE_ID |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1  | EMP-001  | WALTER | BAMAC | 12/12/1995 | 4545-4534 | 1 | 1 |
+|
+
+### Tabla Managers
+_La tabla managers nos servira para crear los managers que estaran a cargo del area de trabajo de la organizaccion._
+
+#### Estructura de la tabla
+
+| MANAGER_ID | NAME  | SURNAME  | PHONE_NUMBER | 
+| ------------- |-------|----------|--------------|
+| 1          | PEDRO | ALVARADP | 25256565     |
 |
 
 ### Tabla Attendances
@@ -82,23 +92,26 @@ _Las pantallas que se consideran que se deben implementar en el sistema son los 
 
 ### Pantalla de Departamentos
 * Permite al encargado del sistema listar, registrar, actualizar y eliminar departamentos.
-
+![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/departments.png)
 
 ### Pantalla de Estados
 * Permite al encargado del sistema listar, registrar, actualizar y eliminar status.
+  ![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/statuses.png)
 
 ### Pantalla de Areas de Trabajo
 * Permite al encargado del sistema listar, registrar, actualizar y eliminar areas de tranajo.
+  ![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/workplaces.png)
 
 ### Pantalla de Empleados
 * Permite al encargado del sistema listar, registrar, actualizar y eliminar empleados.
+  ![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/employees.png)
 
 
 ### Pantalla de registro de asistencia diaria (Attendances)
 * Permite al encargado del centro de trabajo registrar la asistencia de los empleados mediante una interfaz sencilla.
 
 * Lista los empleados asignados al centro de trabajo y permite marcar su estado de asistencia para cada día.
-
+  ![Image text](https://github.com/wae98/AttendanceEmployees/blob/main/images/attendances.png)
 ### Reporte de asistencia diaria (Attendances)
 * Permite a los supervisores y gerentes visualizar la asistencia registrada por cada empleado en un rango de fechas seleccionado.
 
